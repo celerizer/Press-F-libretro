@@ -18,6 +18,7 @@ endif
 
 SOURCES_C := \
    $(CORE_DIR)/debug.c \
+   $(CORE_DIR)/dma.c \
    $(CORE_DIR)/emu.c \
    $(CORE_DIR)/font.c \
    $(CORE_DIR)/hle.c \
