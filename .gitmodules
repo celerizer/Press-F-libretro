@@ -1,0 +1,6 @@
+[submodule "libpressf"]
+	path = libpressf
+	url = http://github.com/celerizer/libpressf
+[submodule "libretro-common"]
+	path = libretro-common
+	url = http://github.com/libretro/libretro-common.git
