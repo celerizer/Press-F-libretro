@@ -1,9 +1,9 @@
 LOCAL_PATH := $(call my-dir)
-BASE_DIR   := $(LOCAL_PATH)/../../../..
-CORE_DIR   := $(BASE_DIR)/src
+BASE_DIR   := $(LOCAL_PATH)/..
+CORE_DIR   := $(BASE_DIR)
 
-INCFLAGS := -I$(CORE_DIR) \
-   -I$(CORE_DIR)/hw
+INCFLAGS := -I$(CORE_DIR)/libpressf \
+   -I$(CORE_DIR)/libpressf/hw
 
 INCFLAGS += -I$(LIBRETRO_COMM_DIR)/include \
    -I$(LIBRETRO_COMM_DIR)/include/compat \
