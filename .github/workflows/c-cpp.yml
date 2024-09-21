@@ -30,5 +30,9 @@ jobs:
         run: |
           git submodule foreach 'git checkout master && git pull origin master'
 
+      - name: Output current commit hash for each submodule
+        run: |
+          git submodule foreach 'echo "Submodule: $name @ Commit:" && git rev-parse HEAD'
+
       - name: make
         run: make
